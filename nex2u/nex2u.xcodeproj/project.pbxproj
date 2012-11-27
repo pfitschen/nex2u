@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44E27AD016650F2B0062F05D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27ACF16650F2B0062F05D /* UIKit.framework */; };
+		44E27AD216650F2B0062F05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27AD116650F2B0062F05D /* Foundation.framework */; };
+		44E27AD416650F2B0062F05D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27AD316650F2B0062F05D /* CoreGraphics.framework */; };
+		44E27ADA16650F2B0062F05D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E27AD816650F2B0062F05D /* InfoPlist.strings */; };
+		44E27ADC16650F2B0062F05D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E27ADB16650F2B0062F05D /* main.m */; };
+		44E27AE016650F2B0062F05D /* nex2uAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E27ADF16650F2B0062F05D /* nex2uAppDelegate.m */; };
+		44E27AE216650F2B0062F05D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E27AE116650F2B0062F05D /* Default.png */; };
+		44E27AE416650F2B0062F05D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E27AE316650F2B0062F05D /* Default@2x.png */; };
+		44E27AE616650F2B0062F05D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44E27AE516650F2B0062F05D /* Default-568h@2x.png */; };
+		44E27AEE16650F2B0062F05D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27AED16650F2B0062F05D /* SenTestingKit.framework */; };
+		44E27AEF16650F2B0062F05D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27ACF16650F2B0062F05D /* UIKit.framework */; };
+		44E27AF016650F2B0062F05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E27AD116650F2B0062F05D /* Foundation.framework */; };
+		44E27AF816650F2B0062F05D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E27AF616650F2B0062F05D /* InfoPlist.strings */; };
+		44E27AFB16650F2B0062F05D /* nex2uTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E27AFA16650F2B0062F05D /* nex2uTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44E27AF116650F2B0062F05D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44E27AC216650F2B0062F05D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44E27ACA16650F2B0062F05D;
+			remoteInfo = nex2u;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E27ACB16650F2B0062F05D /* nex2u.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nex2u.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E27ACF16650F2B0062F05D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		44E27AD116650F2B0062F05D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44E27AD316650F2B0062F05D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		44E27AD716650F2B0062F05D /* nex2u-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nex2u-Info.plist"; sourceTree = "<group>"; };
+		44E27AD916650F2B0062F05D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44E27ADB16650F2B0062F05D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44E27ADD16650F2B0062F05D /* nex2u-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nex2u-Prefix.pch"; sourceTree = "<group>"; };
+		44E27ADE16650F2B0062F05D /* nex2uAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nex2uAppDelegate.h; sourceTree = "<group>"; };
+		44E27ADF16650F2B0062F05D /* nex2uAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nex2uAppDelegate.m; sourceTree = "<group>"; };
+		44E27AE116650F2B0062F05D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		44E27AE316650F2B0062F05D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		44E27AE516650F2B0062F05D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		44E27AEC16650F2B0062F05D /* nex2uTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nex2uTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E27AED16650F2B0062F05D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		44E27AF516650F2B0062F05D /* nex2uTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "nex2uTests-Info.plist"; sourceTree = "<group>"; };
+		44E27AF716650F2B0062F05D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44E27AF916650F2B0062F05D /* nex2uTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nex2uTests.h; sourceTree = "<group>"; };
+		44E27AFA16650F2B0062F05D /* nex2uTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nex2uTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44E27AC816650F2B0062F05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27AD016650F2B0062F05D /* UIKit.framework in Frameworks */,
+				44E27AD216650F2B0062F05D /* Foundation.framework in Frameworks */,
+				44E27AD416650F2B0062F05D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E27AE816650F2B0062F05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27AEE16650F2B0062F05D /* SenTestingKit.framework in Frameworks */,
+				44E27AEF16650F2B0062F05D /* UIKit.framework in Frameworks */,
+				44E27AF016650F2B0062F05D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44E27AC016650F2B0062F05D = {
+			isa = PBXGroup;
+			children = (
+				44E27AD516650F2B0062F05D /* nex2u */,
+				44E27AF316650F2B0062F05D /* nex2uTests */,
+				44E27ACE16650F2B0062F05D /* Frameworks */,
+				44E27ACC16650F2B0062F05D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44E27ACC16650F2B0062F05D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44E27ACB16650F2B0062F05D /* nex2u.app */,
+				44E27AEC16650F2B0062F05D /* nex2uTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44E27ACE16650F2B0062F05D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E27ACF16650F2B0062F05D /* UIKit.framework */,
+				44E27AD116650F2B0062F05D /* Foundation.framework */,
+				44E27AD316650F2B0062F05D /* CoreGraphics.framework */,
+				44E27AED16650F2B0062F05D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44E27AD516650F2B0062F05D /* nex2u */ = {
+			isa = PBXGroup;
+			children = (
+				44E27ADE16650F2B0062F05D /* nex2uAppDelegate.h */,
+				44E27ADF16650F2B0062F05D /* nex2uAppDelegate.m */,
+				44E27AD616650F2B0062F05D /* Supporting Files */,
+			);
+			path = nex2u;
+			sourceTree = "<group>";
+		};
+		44E27AD616650F2B0062F05D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E27AD716650F2B0062F05D /* nex2u-Info.plist */,
+				44E27AD816650F2B0062F05D /* InfoPlist.strings */,
+				44E27ADB16650F2B0062F05D /* main.m */,
+				44E27ADD16650F2B0062F05D /* nex2u-Prefix.pch */,
+				44E27AE116650F2B0062F05D /* Default.png */,
+				44E27AE316650F2B0062F05D /* Default@2x.png */,
+				44E27AE516650F2B0062F05D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44E27AF316650F2B0062F05D /* nex2uTests */ = {
+			isa = PBXGroup;
+			children = (
+				44E27AF916650F2B0062F05D /* nex2uTests.h */,
+				44E27AFA16650F2B0062F05D /* nex2uTests.m */,
+				44E27AF416650F2B0062F05D /* Supporting Files */,
+			);
+			path = nex2uTests;
+			sourceTree = "<group>";
+		};
+		44E27AF416650F2B0062F05D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44E27AF516650F2B0062F05D /* nex2uTests-Info.plist */,
+				44E27AF616650F2B0062F05D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44E27ACA16650F2B0062F05D /* nex2u */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E27AFE16650F2B0062F05D /* Build configuration list for PBXNativeTarget "nex2u" */;
+			buildPhases = (
+				44E27AC716650F2B0062F05D /* Sources */,
+				44E27AC816650F2B0062F05D /* Frameworks */,
+				44E27AC916650F2B0062F05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nex2u;
+			productName = nex2u;
+			productReference = 44E27ACB16650F2B0062F05D /* nex2u.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44E27AEB16650F2B0062F05D /* nex2uTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44E27B0116650F2B0062F05D /* Build configuration list for PBXNativeTarget "nex2uTests" */;
+			buildPhases = (
+				44E27AE716650F2B0062F05D /* Sources */,
+				44E27AE816650F2B0062F05D /* Frameworks */,
+				44E27AE916650F2B0062F05D /* Resources */,
+				44E27AEA16650F2B0062F05D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44E27AF216650F2B0062F05D /* PBXTargetDependency */,
+			);
+			name = nex2uTests;
+			productName = nex2uTests;
+			productReference = 44E27AEC16650F2B0062F05D /* nex2uTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44E27AC216650F2B0062F05D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = nex2u;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = mnpf;
+			};
+			buildConfigurationList = 44E27AC516650F2B0062F05D /* Build configuration list for PBXProject "nex2u" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44E27AC016650F2B0062F05D;
+			productRefGroup = 44E27ACC16650F2B0062F05D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44E27ACA16650F2B0062F05D /* nex2u */,
+				44E27AEB16650F2B0062F05D /* nex2uTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44E27AC916650F2B0062F05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27ADA16650F2B0062F05D /* InfoPlist.strings in Resources */,
+				44E27AE216650F2B0062F05D /* Default.png in Resources */,
+				44E27AE416650F2B0062F05D /* Default@2x.png in Resources */,
+				44E27AE616650F2B0062F05D /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E27AE916650F2B0062F05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27AF816650F2B0062F05D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E27AEA16650F2B0062F05D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44E27AC716650F2B0062F05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27ADC16650F2B0062F05D /* main.m in Sources */,
+				44E27AE016650F2B0062F05D /* nex2uAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44E27AE716650F2B0062F05D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44E27AFB16650F2B0062F05D /* nex2uTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44E27AF216650F2B0062F05D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44E27ACA16650F2B0062F05D /* nex2u */;
+			targetProxy = 44E27AF116650F2B0062F05D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44E27AD816650F2B0062F05D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E27AD916650F2B0062F05D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		44E27AF616650F2B0062F05D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44E27AF716650F2B0062F05D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44E27AFC16650F2B0062F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44E27AFD16650F2B0062F05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44E27AFF16650F2B0062F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nex2u/nex2u-Prefix.pch";
+				INFOPLIST_FILE = "nex2u/nex2u-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		44E27B0016650F2B0062F05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nex2u/nex2u-Prefix.pch";
+				INFOPLIST_FILE = "nex2u/nex2u-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		44E27B0216650F2B0062F05D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nex2u.app/nex2u";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nex2u/nex2u-Prefix.pch";
+				INFOPLIST_FILE = "nex2uTests/nex2uTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		44E27B0316650F2B0062F05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/nex2u.app/nex2u";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "nex2u/nex2u-Prefix.pch";
+				INFOPLIST_FILE = "nex2uTests/nex2uTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44E27AC516650F2B0062F05D /* Build configuration list for PBXProject "nex2u" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E27AFC16650F2B0062F05D /* Debug */,
+				44E27AFD16650F2B0062F05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44E27AFE16650F2B0062F05D /* Build configuration list for PBXNativeTarget "nex2u" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E27AFF16650F2B0062F05D /* Debug */,
+				44E27B0016650F2B0062F05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44E27B0116650F2B0062F05D /* Build configuration list for PBXNativeTarget "nex2uTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44E27B0216650F2B0062F05D /* Debug */,
+				44E27B0316650F2B0062F05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44E27AC216650F2B0062F05D /* Project object */;
+}
